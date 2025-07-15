@@ -102,8 +102,7 @@ To improve query performance, we carried out the following optimization process:
         - Execution time (E.T.): **7 ms**
         - Planning time (P.T.): **0.17 ms**
     - Below is the **screenshot** of the `EXPLAIN` result before optimization:
-      ![EXPLAIN Before Index](<img width="893" height="364" alt="spotify_explain_before_index" src="https://github.com/user-attachments/assets/136dcf1b-b422-4265-85fd-3e3a4575c444" />
-)
+      ![EXPLAIN Before Index](https://github.com/SwetaT30/Project---Spotify-Data-Analysis/blob/main/spotify_explain_after_index.png)
 
 - **Index Creation on the `artist` Column**
     - To optimize the query performance, we created an index on the `artist` column. This ensures faster retrieval of rows where the artist is queried.
@@ -117,8 +116,7 @@ To improve query performance, we carried out the following optimization process:
         - Execution time (E.T.): **0.153 ms**
         - Planning time (P.T.): **0.152 ms**
     - Below is the **screenshot** of the `EXPLAIN` result after index creation:
-      ![EXPLAIN After Index](<img width="1083" height="545" alt="spotify_explain_after_index" src="https://github.com/user-attachments/assets/9feeb7dd-b0c0-425e-ad9a-ac35fa75af98" />
-)
+      ![EXPLAIN After Index]
 
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
