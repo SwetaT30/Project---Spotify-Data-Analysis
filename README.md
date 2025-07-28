@@ -89,7 +89,6 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 4. Find tracks where the energy-to-liveness ratio is greater than 1.2.
 5. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
 
-
 ---
 
 ## Query Optimization Technique 
@@ -137,3 +136,4 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ## License
 This project is licensed under the MIT License.
+
